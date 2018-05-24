@@ -1,6 +1,6 @@
 # UDFS
 Unsupervised Discriminative Feature Selection
-The Unsupervised Discriminative Feature Selection (UDFS) algorithm originally proposed by Yang et al. [Click here](https://www.ijcai.org/Proceedings/11/Papers/267.pdf) aims to select the most discriminative features for data representation. The algorithm optimizes the features and provides an output with feature ranking and weights. It uses inout training file with features and class values. Certain other parameters such as gamma, lambda, k and nclasses are required for computatio of optimal features. The algorithm is based on L-2,1 regularization approach for minimization of the objective function and generating feature coefficient for each value of lambda.
+The Unsupervised Discriminative Feature Selection (UDFS) algorithm originally proposed by Yi Yang [Click here](https://www.ijcai.org/Proceedings/11/Papers/267.pdf), aims to select the most discriminative features for data representation. The algorithm optimizes the features and provides an output with feature ranking and weights. It uses inout training file with features and class values. Certain other parameters such as gamma, lambda, k and nclasses are required for computatio of optimal features. The algorithm is based on L-2,1 regularization approach for minimization of the objective function and generating feature coefficient for each value of lambda.
 
 The UDFS application can be executed by the following command: 
 ```
